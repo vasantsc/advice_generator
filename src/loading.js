@@ -12,7 +12,7 @@ function Loading() {
   let [color, setColor] = useState("#000");
 
   return (
-    <div className="sweet-loading">
+    <div style={{margin:26+'px '+0}} className="sweet-loading">
       <SyncLoader
         color={color}
         loading={loading}
